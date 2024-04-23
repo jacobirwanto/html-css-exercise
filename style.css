@@ -1,0 +1,183 @@
+* {
+  font-family: "Poppins";
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #beadfa;
+  width: 100%;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+  line-height: 30px;
+}
+
+#logo {
+  padding-left: 35px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 85px;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px;
+  border-radius: 20px;
+  background-color: white;
+  width: 188px;
+  height: 37px;
+}
+
+.searchbox {
+  padding-left: 3px;
+  border: none;
+  outline: none;
+}
+
+.search img {
+  margin-top: 6px;
+}
+
+.cart {
+  margin-right: 111px;
+}
+
+.page {
+  background-color: #8e8ffa;
+  padding-top: 87px;
+  padding-bottom: 98px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  width: 291px;
+  height: 104px;
+  font-weight: 800;
+  font-size: 54px;
+  line-height: 81px;
+  text-align: center;
+}
+
+.subtitle {
+  color: white;
+  width: 573px;
+  height: 104px;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 600px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.subtext {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
+  width: 611px;
+  height: 187px;
+}
+
+.sample {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  height: 257px;
+  align-items: center;
+}
+
+.sampletext {
+  color: white;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 54px;
+  line-height: 81px;
+  text-align: center;
+}
+
+.review {
+  background-color: #c780fa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.reviewtext {
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 81px;
+  text-align: center;
+  padding-top: 52px;
+  padding-bottom: 78px;
+}
+
+.reviewboxtemplate {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 120px;
+  gap: 70px;
+  padding-left: 58px;
+  padding-right: 58px;
+}
+
+.reviewbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 392px;
+  height: 432px;
+  justify-content: space-around;
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 20px;
+  padding-left: 32px;
+  padding-right: 28px;
+}
+
+.reviewbox img {
+  width: 158px;
+  height: 158px;
+}
+
+.paragraphreview {
+  font-weight: 500;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.namereview {
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 37.5px;
+  text-align: center;
+  padding-bottom: 52px;
+}
